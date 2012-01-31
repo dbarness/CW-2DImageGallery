@@ -1,0 +1,92 @@
+body {
+	background-color: #000;
+}
+
+img {
+	float:left;
+	margin: 0;
+	padding: 0;
+	width: 70%;
+	height: auto;
+	
+	-moz-opacity: .5;
+	-webkit-opacity: .5;
+	-o-opacity: .5;
+	opacity: .5;
+	
+	 -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+	 -o-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	
+}
+
+img:hover {
+	
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	-o-opacity: 1;
+	opacity: 1;
+	
+	
+	
+
+}
+
+section {
+	
+	max-width: 600px;
+	margin: 200px auto;
+}
+
+figure {
+	float: left;
+	width: 200px;
+	height: 165px;
+	
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+figure:hover {
+	-moz-transform: scale(1.2) ;
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+	transform: scale(1.2);
+	
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+figure:hover img {
+	-moz-transform: translateX(15px);
+	-webkit-transform: translateX(15px);
+	-o-transform: translateX(15px);
+	transform: translateX(15px);
+}
+
+figure:hover figcaption {
+	display: block;
+}
+
+
+
+figcaption {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	width: 200;
+	float: left;
+	padding-top: 15px;
+	display: none;
+}
+
